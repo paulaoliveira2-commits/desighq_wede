@@ -4,6 +4,7 @@ const viva = true;
 
 function calcIdade(ano=2026){
     let idade = ano - nasc;
+    let menor;
     if (idade < 18){
          menor = true;
     }else{
