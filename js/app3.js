@@ -6,10 +6,10 @@ let sexo;
 let peso = null;
 let imc = "peso"*10;
 
-alert(`Ano de nascimento - tipo: ${type(nasc)}`)
-alert(`Nome - tipo: ${type(nome)}`)
-alert(`Viva - tipo: ${type(viva)}`)
-alert(`Altura - tipo: ${type(altura)}`)
-alert(`Sexo - tipo: ${type(sexo)}`)
-alert(`Peso - tipo: ${type(peso)}`)
-alert(`IMC - tipo: ${type(imc)}`)
+alert(`Ano de nascimento - tipo: ${typeof(nasc)}`);
+alert(`Nome - tipo: ${typeof(nome)}`);
+alert(`Viva - tipo: ${typeof(viva)}`);
+alert(`Altura - tipo: ${typeof(altura)}`);
+alert(`Sexo - tipo: ${typeof(sexo)}`);
+alert(`Peso - tipo: ${typeof(peso)}`);
+alert(`IMC - tipo: ${typeof(imc)}`);
