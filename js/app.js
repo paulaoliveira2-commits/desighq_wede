@@ -1,5 +1,5 @@
 let nasc = prompt("Digite seu ano de nascimento");
-nasc = parsenlnt(nasc);
+nasc = parseInt(nasc);
 
 let viva = confirm("Se voce está viva, clique em ok.");
 
