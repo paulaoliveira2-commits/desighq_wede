@@ -4,36 +4,19 @@ dia = Number(dia);
 
 switch(dia){
 
-case 1: alert("Você escolheu domingo");
+case 1: alert("Você escolheu domingo"); break;
 
-case 2: alert("Você escolheu segunda");
+case 2: alert("Você escolheu segunda"); break;
 
-case 3: alert("Você escolheu terça");
+case 3: alert("Você escolheu terça"); break;
 
-case 4: alert("Você escolheu quarta");
+case 4: alert("Você escolheu quarta"); break;
 
-case 5: alert("Você escolheu quinta");
+case 5: alert("Você escolheu quinta"); break;
 
-case 6: alert("Você escolheu sexta");
+case 6: alert("Você escolheu sexta"); break;
 
-case 7: alert("Você escolheu sábado");
+case 7: alert("Você escolheu sábado"); break;
+default: alert("Dia inválido"); break;
 }
 
-if (dia <= 0 || dia >= 8){
-    alert("Dia inválido")
-
-}else if(dia == 1){
-
-}else if(dia == 2){
-
-
-}else if(dia == 3) {
-
-}else if(dia == 4) {
-
-}else if(dia == 5){
-
-}else if(dia ==6){
-
-}else if(dia == 7){
-}
