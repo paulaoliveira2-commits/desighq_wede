@@ -14,11 +14,20 @@ prox.addEventListener("click", proximo);
 
 function anterior(e){
     e.preventDefault();
-    if(i>1){
-        i = i - 1;
+    if (i>1){
+        i = i -1;
     }
     imagem.setAttribute("src",`./img/foto${i}.jpg`);
 }
 const ant = document.getElementById("ant");
-ant.addEventListener("click", anterior);
+ant.addEventListener("click", proximo);
+
+function selecionar(e){
+    e.preventDefault();
+    i = Number(cbbox.value);
+    imagem.setAttribute("src",`./img/foto${i}.jpg`);
+}
+const cbbox = document.getElementById("combobox");
+cbbox.addEventListener("change", selecionar);
+
 
